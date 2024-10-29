@@ -32,7 +32,7 @@ api_session = requests_cache.CachedSession('illustratemath_cache', expire_after=
 # Chef class definition
 class IllustrateMathChef(SushiChef):
     channel_info = {
-        'CHANNEL_SOURCE_DOMAIN': API_URL,
+        'CHANNEL_SOURCE_DOMAIN': "illustrativemathematics.org",
         'CHANNEL_SOURCE_ID': 'illustrativemathematics',
         'CHANNEL_TITLE': 'US Common Core PBL Mathematics',
         'CHANNEL_LANGUAGE': 'en',
